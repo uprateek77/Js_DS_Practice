@@ -26,5 +26,6 @@ function reverseArray(){
         arr[end]=temp
         end=end-1;
     }
-    console.log(arr)
+    document.getElementById("newArray").innerHTML = arr;
+
  }
