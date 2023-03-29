@@ -1,5 +1,4 @@
 var arr=[];
-var reversedArray=[];
 const handleSubmit=(e)=>{
     e.preventDefault()
     val=document.getElementById('val').value;
@@ -26,7 +25,6 @@ function reverseArray(){
         arr[i]=arr[end]
         arr[end]=temp
         end=end-1;
-        reversedArray.push(temp)
     }
     console.log(arr)
  }
