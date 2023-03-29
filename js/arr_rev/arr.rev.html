@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id='myForm' onsubmit="handleSubmit(event)">
+      <input
+        type="text"
+        id="val"
+        name="val"
+        placeholder="Enter value in array"
+      />
+      <button type="submit">Add to array</button>
+    </form>
+    <p>Array: <span id="myText"></p>
+        <button onclick="reverseArray()">Click to Reverse the array</button>
+  </body>
+  <script type="text/javascript" src="/js/arr_rev/arr_rev.js"></script>
+</html>
